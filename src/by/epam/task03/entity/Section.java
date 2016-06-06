@@ -61,11 +61,6 @@ public class Section {
 
     @Override
     public String toString() {
-        String resultString = "\n" + name + "\n";
-        for(Dish dish : dishes) {
-            resultString = resultString + dish;
-        }
-
-        return resultString;
+    	return getClass().getName() + "@" + "name : " + name + ", dishes : " + dishes;
     }
 }

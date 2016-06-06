@@ -85,11 +85,10 @@ public class Dish {
 
     @Override
     public String toString() {
-        return "\tНазвание: " + name + 
-        		"\n\tОписание: " + (description != null ? description : "отсутствует") + 
-        		"\n\tПорция: " + portion + 
-        		"\n\tЦена: " + (price != 0 ? price : "не указана") + 
-        		"\n\tФото: " + photo + 
-        		"\n\n";
+    	return getClass().getName() + "@" + "photo : " + photo + 
+    			", name : " + name +
+    			", description : " + description +
+    			", portion : " + portion +
+    			", price : " + price;
     }
 }

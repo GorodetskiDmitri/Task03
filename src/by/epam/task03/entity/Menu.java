@@ -44,10 +44,6 @@ public class Menu {
 
     @Override
     public String toString() {
-        String resultString = "лемч:\n";
-        for (Section section : sections) {
-            resultString = resultString + section;
-        }
-        return resultString;
+    	return getClass().getName() + "@" + "sections : " + sections;
     }
 }

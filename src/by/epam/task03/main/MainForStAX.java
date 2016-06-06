@@ -17,7 +17,7 @@ import javax.xml.stream.XMLStreamReader;
 
 public class MainForStAX {
 
-    private static final String xmlFileURI = "xml\\menu.xml";
+    private static final String xmlFileURI = "xml/menu.xml";
 
     public static void main(String[] args) throws IOException, XMLStreamException {
 
